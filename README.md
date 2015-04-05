@@ -9,7 +9,7 @@ Use Similar-Block-Attack to bypass PHP-GD process to RCE.
 
 ## Usage
 
-Usage: php codeinj.php <src_img> <inj_code>
+Usage: ``php codeinj.php <src_img> <inj_code>``
 
     php codeinj.php demo.gif "<?php phpinfo();?>"
 
